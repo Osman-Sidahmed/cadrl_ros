@@ -9,7 +9,7 @@ LABEL maintainer "Michael Everett, Björn Lütjens <{mfe}, {lutjens}@mit.edu>"
 RUN apt update
 RUN apt -y upgrade
 
-# Install tensorflow-gpu w/ python2.7 
+# Install tensorflow-gpu w/ python3 
 RUN apt update
 RUN apt-get -y install python3 python3-pip python3-dev
 RUN pip3 install tensorflow
